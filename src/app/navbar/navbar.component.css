@@ -1,0 +1,68 @@
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {
+  color: #DE2B29;
+}
+
+a.nav-link {
+  color: white;
+  font-size: 16px;
+  line-height: 20px;
+  padding: 20px 20px;
+
+
+}
+
+a.nav-link:hover {
+  color: #DE2B29;
+}
+
+.navbar-brand {
+  color: #DE2B29;
+  font-size: 25px;
+  line-height: 25px;
+  font-weight: 700;
+  padding: 18px 0;
+}
+
+/* Responsive Media Queries for Navbar */
+
+/* Tablet Styles (577px to 992px) */
+@media (max-width: 992px) and (min-width: 577px) {
+  .navbar-nav {
+    text-align: center;
+  }
+
+  a.nav-link {
+    font-size: 14px;
+    padding: 12px 12px;
+  }
+
+  .navbar-brand {
+    font-size: 22px;
+    padding: 14px 0;
+  }
+}
+
+/* Mobile Styles (up to 576px) */
+@media (max-width: 576px) {
+  .navbar-toggler {
+    border: none;
+  }
+
+  .navbar-brand {
+    font-size: 18px;
+    padding: 10px 0;
+  }
+
+  a.nav-link {
+    font-size: 14px;
+    padding: 8px 10px;
+    text-align: center;
+  }
+
+  .navbar-collapse {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 10px 0;
+  }
+}

@@ -1,0 +1,139 @@
+#section-3 .container-fluid {
+  padding-block: 5%;
+  padding-inline: 12%;
+}
+
+#section-3 .container-fluid h2 {
+  font-size: 40px;
+  line-height: 30px;
+  font-weight: 700;
+  margin: 0 0 7px;
+  padding: 0 0 7px;
+  color: RGB(51, 51, 51);
+  text-align: center;
+}
+
+#section-3 .lines {
+  color: #DE2B29;
+  line-height: 5px;
+  margin-bottom: 7%;
+}
+
+#section-3 .card-body {
+  border: none;
+}
+
+#section-3 .nav-tabs {
+  border: none;
+}
+
+.nav-link {
+  color: black;
+}
+
+.nav-link:hover {
+  color: #ec0349;
+  border: none;
+}
+
+#section3 .nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+  border: none;
+  color: #ec0349;
+}
+
+.p-3.border.border-top-0 {
+  border: none !important;
+}
+
+.col-4 {
+  overflow: hidden;
+}
+
+.col-4 .layer {
+  background-color: rgba(0, 0, 0, 0.51);
+  width: 100%;
+  position: absolute;
+  top: 120%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+
+}
+
+.col-4:hover .layer {
+  top: 0%;
+}
+
+#section-3 .layer i {
+  color: #ec0349;
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+
+#section-4 .container-fluid {
+  padding-block: 2%;
+  padding-inline: 10%;
+}
+
+#section-4 i {
+  color: #ec0349;
+  font-size: 26px;
+  line-height: 26px;
+  margin: 15px 0 30px;
+}
+
+#section-4 h3 {
+  color: RGB(51, 51, 51);
+  font-size: 26px;
+  line-height: 28px;
+  font-weight: 700;
+  margin: 0 0 10px;
+  text-align: center;
+}
+
+#section-4 h5 {
+  color: RGB(85, 85, 85);
+  font-size: 16px;
+  line-height: 17px;
+  font-weight: 600;
+  text-align: center;
+}
+
+/* Responsive Media Queries for Portfolio */
+
+/* Tablet Styles (577px to 992px) */
+@media (max-width: 992px) and (min-width: 577px) {
+  #section-3 .container-fluid {
+    padding-inline: 8%;
+  }
+
+  #section-3 .container-fluid h2 {
+    font-size: 32px;
+  }
+
+  .col-4 {
+    margin-bottom: 20px;
+  }
+}
+
+/* Mobile Styles (up to 576px) */
+@media (max-width: 576px) {
+  #section-3 .container-fluid {
+    padding-inline: 5%;
+    padding-block: 10%;
+  }
+
+  #section-3 .container-fluid h2 {
+    font-size: 28px;
+  }
+
+  .col-4 {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
